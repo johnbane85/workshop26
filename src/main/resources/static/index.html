@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+  </head>
+  <body>
+    <h1>Workshop 26</h1>
+
+    <form method="GET" action="/page/bgg/games">
+      <table>
+        <tr>
+          <td>limit:</td>
+          <td><input type="text" name="limit" /></td>
+        </tr>
+        <tr>
+          <td>offset:</td>
+          <td><input type="number" name="offset" min="0" value="0" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">Get Boardgames</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
